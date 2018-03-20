@@ -1,6 +1,6 @@
 
 var ByteBuffer = function (length) {
-	this.buffer = new ArrayBuffer(length);
+    this.buffer = new ArrayBuffer(length);
     //this.byteStream=new Uint8Array(this.buffer);
     this.dataView = new DataView(this.buffer);
     //缓冲区偏移量
