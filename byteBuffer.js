@@ -11,10 +11,10 @@
  *  buffer.writeChar("|");
  *  buffer.writeUint32(1000);
     buffer.writeInt64(-14725836936900);
-	socket.send(buffer.buffer,buffer.offset);
+    socket.send(buffer.buffer,buffer.offset);
 
-	字节流解包:
-	var len=socket.read(data);
+    字节流解包:
+    var len=socket.read(data);
 	
     var buffer=new ByteBuffer(len);
     buffer.setBufferData(data);
