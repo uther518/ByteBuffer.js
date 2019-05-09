@@ -5,6 +5,7 @@ javascript字节流网络包封装类
 2，long,int64类型实现<br>
 3，utf8编码实现<br>
 
+```javascript
 字节流打包:
 var buffer=new ByteBuffer(128);
 buffer.writeString("test string");
@@ -20,3 +21,4 @@ var buffer=new ByteBuffer(len);
 buffer.setBufferData(data);
 var str=buffer.readString();
 var int32=buffer.readInt32();
+```
