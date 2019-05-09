@@ -1,9 +1,9 @@
 # ByteBuffer.js
 javascript字节流网络包封装类
 
-1，字节流基本类型封装
-2，long,int64类型实现
-3，utf8编码实现
+1，字节流基本类型封装<br>
+2，long,int64类型实现<br>
+3，utf8编码实现<br>
 
 字节流打包:
 var buffer=new ByteBuffer(128);
